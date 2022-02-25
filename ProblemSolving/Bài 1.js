@@ -5,7 +5,7 @@ function findOppositeNumber(n, inputNumber) {
         count = count + 1;
       }
       let sodoi = n / 2 + (count - 1);
-      console.log("Số đối diện với " + inputNumber + " là số: " + sodoi);
+      console.log("Số đối diện với số " + inputNumber + " là số: " + sodoi);
     } else {
       for (let i = n / 2; i <= inputNumber; i++) {
         count = count + 1;
