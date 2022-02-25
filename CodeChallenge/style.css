@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Trebuchet MS;
+    background: grey;
+      display: flex;
+        align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .container {
+    height: calc(100vh - 50px);
+    width: 100%;
+  }
+  
+  
+  h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    background-color: #c12121;
+    padding: 5px;
+  }
+  
+  .body {
+    background-color: #ccffff;
+    height: 100%;
+    
+  }
+  
+  p {
+    margin-top: 0px;
+    padding-top: 16px;
+  }
+  
+  .input {
+    margin-bottom: 16px;
+    width: 185px;
+    font-size: 14px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px 10px;
+    border-radius: 5px;
+  }
+  
+  /*.btn-submit, .btn-reset {
+    padding: 5px 15px;
+    background-color: #7FFF00;
+    border: 2px #80808085 solid;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    font-weight: bold;
+  }*/
+  
+  .btn-submit, .btn-reset {
+    background-color: #47a386;
+      border: 0;
+      border-radius: 5px;
+      color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      padding: 10px 25px;
+      font-size: 14px;
+      cursor: default;
+      margin-top: 15px;
+      margin: 0px;
+  }
+  
+  /*.btn-submit:hover, .btn-reset:hover {
+    background-color: #6ad004;
+    cursor: pointer;
+  }*/
+  
+  .btn-submit:hover, .btn-reset:hover {
+    background-color: #319878;
+    cursor: pointer;
+  }
+  
+   /*--Styling for Popup--*/
+    .popup-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+      margin: 0px;
+      position: absolute;
+      z-index: 100;
+      background-color: #e2e2e27a;
+      top: 0px;
+      position: fixed;
+      opacity: 0;
+      pointer-events: none;
+    }
+  
+  .popup-container.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+    
+    .close-popup {
+      background-color: #47a386;
+      border: 0;
+      border-radius: 5px;
+      color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      padding: 10px 25px;
+      font-size: 14px;
+      cursor: default;
+      margin-top: 15px;
+      margin: 0px;
+    }
+  .close-popup:hover {
+    background-color: #319878;
+    cursor: pointer;
+  }
+    .popup {
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      padding: 30px 30px;
+      width: 300px;
+      max-width: 100%;
+      text-align: center;
+      z-index: 100;
+    }
+  
+  .show-text, .show-lucky-number, .show-remaining-turns, .show-input-number {
+    margin: 0px;
+  }
